@@ -1,4 +1,6 @@
 #!bin/bash
+ssh -i $1 $2 yum clean all  
+echo $2 $3 >> /etc/hosts
 ssh -i $1 $2 rpm -ivh https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-2.noarch.rpm
 ssh -i $1 $2 rpm -ivh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 ssh -i $1 $2 yum install puppet puppet-server facter -y
