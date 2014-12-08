@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This Script will install a Web application on any CentOs based Cloud instance or Bare metal server"
+echo "This Script will install a Web application on a Eucalyptus Cloud instance"
 echo 
 echo "#"
 echo "##"
