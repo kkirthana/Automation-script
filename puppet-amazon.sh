@@ -1,5 +1,5 @@
 #!bin/bash
-echo "This Script will install My web Application on Eucalyptus cloud instance using puppet"
+echo "This Script will install My web Application on Amazon cloud instance using puppet"
 echo "#"
 echo "##"
 echo "####################"
